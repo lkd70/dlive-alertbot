@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dlivetv-unofficial-api": "^2.0.10"
+  },
+  "name": "dlive-alertbot",
+  "version": "1.0.0",
+  "description": "Basic Discord alerts for Dlive.tv",
+  "main": "bot.js",
+  "scripts": {
+    "test": "nodemon bot.js",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LKD70/dlive-alertbot.git"
+  },
+  "keywords": [
+    "Dlive",
+    "Dlive.tv",
+    "Discord",
+    "LKD70"
+  ],
+  "author": "LKD70",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LKD70/dlive-alertbot/issues"
+  },
+  "homepage": "https://github.com/LKD70/dlive-alertbot#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
